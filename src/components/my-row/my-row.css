@@ -1,0 +1,11 @@
+.my-row {
+  align-items: stretch;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+}
+
+.my-row__col {
+  flex: 1 1 100%;
+  min-width: 0;
+}
